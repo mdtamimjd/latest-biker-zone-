@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latest Bike Zone Shop</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/others/image.png" type="image/x-icon">
+    <!-- added tailwind css and diasyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font connect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css inter line style  -->
+    <style>
+      /* font class */
+      .manrope {
+        font-family: "Manrope", sans-serif;
+      }
+      .inter {
+        font-family: "Inter", sans-serif;
+      }
+      .poppins {
+        font-family: "Poppins", sans-serif;
+      }
+      /* color class */
+      .orange-btn{
+        background-color: rgb(231, 111, 81);
+      }
+      .h-o-btn{
+        background-color: rgba(231, 111, 81, 0.7);
+      }
+      .all-p{
+        font-size: 16px;
+        font-weight: 300;
+        color: #e0e0e0;
+      }
+    </style>
+  </head>
+  <body class="bg-white">
+    <header class="poppins bg-[#264653]">
+        <div class="md:w-4/5 w-5/6 mx-auto">
+        <nav class="w-full h-20 flex justify-between items-center">
+            <div></div>
+            <ul class="hidden md:flex gap-8 items-center text-white">
+                <li><a href="">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Contact</a></li>
+                <li><button class="px-8 py-2.5 rounded-md text-white hover:opacity-90 orange-btn">Login</button></li>
+            </ul>
+            <div class="md:hidden"><img src="./images/icons/image.png" alt=""></div>
+        </nav>
+        <div class="flex flex-col md:flex-row gap-10 justify-between items-center py-24">
+            <div class="text-white flex flex-col gap-5 md:w-[480px]">
+                <p class="font-light text-sm">Computer-controlled digital transistorized with electronic advance</p>
+                <h2 class="text-[48px] font-semibold">Honda CBR 300R</h2>
+                <p class="all-p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <span><button class="px-8 py-2.5 rounded-md text-white hover:opacity-90 orange-btn">Purchase</button></span>
+            </div>
+            <div class="md:w-1/2">
+                <img src="./images/others/image.png" alt="">
+            </div>
+        </div>
+    </div>
+    </header>
+    <main>
+        <!-- section feature bike -->
+         <section class="md:w-4/5 w-5/6 mx-auto py-20">
+            <h1 class="text-black font-semibold poppins text-[48px] text-center">Fetured Bikes In This Year</h1>
+            <div class="md:h-[400px] mt-10 grid md:grid-cols-3 grid-rows-3 md:grid-rows-1 justify-between items-center">
+                <div><img src="./images/slider/bike1.png" alt=""></div>
+                <div><img src="./images/slider/bike3.png" alt=""></div>
+                <div><img src="./images/slider/bike4.png" alt=""></div>
+            </div>
+         </section>
+    </main>
+    <footer></footer>
+  </body>
+</html> 
